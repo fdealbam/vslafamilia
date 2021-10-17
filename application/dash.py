@@ -38,7 +38,7 @@ TASAVSLAFAMILIA = tabla1_f.iloc[0]['tasa_acumulada']
 
 #os.chdir(r"C:\Users\PRIME\AnacondaProjects\Project_curso\\")
 
-delitos = pd.read_csv("https://raw.githubusercontent.com/fdealbam/vslafamilia/main/vslafamilia15_21.csv")
+delitos = pd.read_csv("https://raw.githubusercontent.com/fdealbam/vslafamilia/main/vslafamilia2015_2021.csv")
 
 delitos.groupby(['Año','Entidad','Tipo de delito'])['Enero', 
                  'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
