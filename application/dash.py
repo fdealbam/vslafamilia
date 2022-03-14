@@ -538,7 +538,7 @@ body = html.Div([
             [
                 #html.H4("Consideraciones generales "),
                 html.P(
-                    "La Contra la familia es uno de los delitos más graves de la violencia de género que se vive en el país, "
+                    "Los delitos contra la familia es uno de los delitos más graves de la violencia de género que se vive en el país, "
                     "además, son problemas aún irresueltos y son tema central de la " 
                     "agenda legislativa, pero hoy alcanzan relevancia en la agenda seguridad pública del país, también. "+
                    " Entre 2015 y 2022 se registraron "+ str(f"{int(TOTTRATAPERSONAS):,}") +" casos, lo que representa una tasa de "+
@@ -546,7 +546,7 @@ body = html.Div([
                   
                     "Este tablero analítico se compone de una sección en la cual tratamos la Contra la familia, observamos "
                     "su gravedad según intervalos anuales o mensuales; incluimos el análisis detallado de cuatro "
-                    "entidades con más incidencias de este delito.""; finalmente, comparamos los rankings por entidad "
+                    "entidades con más incidencias de este delito; finalmente, comparamos los rankings por entidad "
                     "según sumas del periódo 2015 al 2021 con las tasas por entidad del mismo intervalo. " 
                     " "                    
                     "Hoy existen cada vez mayor atención institucional para atender la violencia contra las mujeres y son fuerte "
@@ -743,9 +743,9 @@ body = html.Div([
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
                          "box-shadow": "10px 20px 30px black",
-                         'margin-left': '300px',
+                        # 'margin-left': '10px',
                         'width': '550px',
-                         
+                        
                          }, disabled=True)),
            ]),
     html.Br(),
