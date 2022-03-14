@@ -569,7 +569,7 @@ body = html.Div([
        html.Br(),
         dbc.Row(
            [
-               dbc.Col(html.P("Evolución de la incidencia de Contra la familia" ),
+               dbc.Col(html.P("Evolución de la incidencia de delitos contra la familia" ),
                         style={"font-size": 56, "text-align": "left", "margin-left":"50px",
                               "text-shadow": "10px 20px 30px black",}),
            ], justify= "start"),
